@@ -4,9 +4,9 @@ function media() {
     let n2 = Number(window.prompt(`Além de ${n1}, qual foi a outra nota de ${nom}?`))
     med = (n1 + n2)/2 
     
-    
+
     let msg // cria uma variável e deixa ela vazia
-    if (med >= 6) { // Se por acaso a média foi 6.0 ou mais...
+    if (med >= 7) { // Se por acaso a média foi 6.0 ou mais...
         msg = 'Meus parabéns!'
     } else { // senão...
         msg = 'Estude um pouco mais!'
