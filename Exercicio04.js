@@ -1,10 +1,8 @@
-var salario;
+var salario = 3000;
 var salarioNovo;
 var aumento;
 
-salario = input(("Digite o Salário do Colaborador: ") + ".");
-
-    if (salario <= 2800) {
+     if (salario <= 2800) {
         aumento = (salario * 20 / 100);
         salarioNovo = aumento + salario;
         console.log("Salário Antes do Reajuste: R$ " + salario + ".\n-- Aumento Aplicado 20% ----\nValor do Aumento: R$ " + aumento + ".\nSalário Após o Aumento: R$ " + salarioNovo + ".");
